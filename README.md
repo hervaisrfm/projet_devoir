@@ -36,7 +36,22 @@
 - Standard pour les formulaires complexes
 
 ## Exercice 1.3 : Addition avec parse
-(en cours)
+
+### Étapes réalisées :
+
+1. **Création des contrôleurs** : `TextEditingController` pour chaque champ
+2. **Récupération des valeurs** : avec `.text` sur chaque contrôleur
+3. **Conversion en nombres** : `int.parse()` pour transformer String → int
+4. **Addition** : calcul simple de la somme
+5. **Affichage du résultat** dans un widget Text
+
+### Gestion des erreurs :
+- Try/catch pour capturer les erreurs de conversion
+- Vérification des champs vides
+- Messages d'erreur clairs pour l'utilisateur
+
+### Nettoyage mémoire :
+- `.dispose()` des contrôleurs dans `dispose()`
 
 ## Exercice 1.4 : Décoration TextField
 (en cours)
