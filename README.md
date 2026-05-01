@@ -19,7 +19,21 @@
 ---
 
 ## Exercice 1.2 : Compteur de caractères
-(en cours)
+
+### Méthode 1 : onChanged
+
+**Arguments :**
+- Simplicité : 3 lignes de code suffisent
+- Performance légère : pas de création de contrôleur
+- Idéal pour un usage simple et ponctuel
+
+### Méthode 2 : TextEditingController + addListener
+
+**Arguments :**
+- Puissance : permet de modifier le texte programmatiquement
+- Réutilisabilité : le même contrôleur peut servir à plusieurs widgets
+- Séparation des responsabilités : logique séparée de l'UI
+- Standard pour les formulaires complexes
 
 ## Exercice 1.3 : Addition avec parse
 (en cours)

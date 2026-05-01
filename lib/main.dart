@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'exercice1/exercice1_1.dart';
+import 'exercice1/exercice1_2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Devoir Flutter',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const Exercice1_1(),
+      home: const Exercice1_2(),
       debugShowCheckedModeBanner: false,
     );
   }
