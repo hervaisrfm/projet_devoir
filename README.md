@@ -54,4 +54,34 @@
 - `.dispose()` des contrôleurs dans `dispose()`
 
 ## Exercice 1.4 : Décoration TextField
-(en cours)
+
+### Propriétés de decoration utilisées :
+
+| Propriété | Rôle | Exemple |
+|-----------|------|---------|
+| `border` | Bordure du champ | `OutlineInputBorder()` |
+| `hintText` | Texte grisé indicatif | `"Entrez votre nom"` |
+| `labelText` | Étiquette flottante | `"Email"` |
+| `prefixIcon` | Icône à gauche | `Icon(Icons.person)` |
+| `suffixIcon` | Icône à droite | `Icon(Icons.search)` |
+| `filled` | Active le remplissage | `true` |
+| `fillColor` | Couleur de fond | `Colors.blue[50]` |
+| `errorText` | Message d'erreur | `"Champ requis"` |
+| `counterText` | Compteur personnalisé | `"Max 50 caractères"` |
+| `helperText` | Texte d'aide | `"Entrez une adresse valide"` |
+
+### Exemple d'utilisation complète :
+
+```dart
+TextField(
+  decoration: InputDecoration(
+    border: OutlineInputBorder(),
+    hintText: 'Entrez votre adresse',
+    labelText: 'Adresse',
+    prefixIcon: Icon(Icons.home),
+    suffixIcon: Icon(Icons.location_city),
+    filled: true,
+    fillColor: Colors.white,
+    helperText: 'Votre adresse complète',
+  ),
+)
