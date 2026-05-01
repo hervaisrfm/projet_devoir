@@ -85,3 +85,34 @@ TextField(
     helperText: 'Votre adresse complète',
   ),
 )
+
+## Exercice 2 : Application simple
+
+- Titre : **My Application**
+- Texte centré : **Bienvenue**
+- Bouton en bas : **VALIDER**
+- Fond blanc
+- Aucune action au clic
+
+---
+
+## Exercice 3 : Plusieurs TextField dans un Container
+
+### Réponse : OUI, c'est possible
+
+Le Container a un seul `child`. Pour mettre plusieurs TextField, on utilise :
+- `Column` → disposition verticale
+- `Row` → disposition horizontale
+- `ListView` → liste défilante
+
+### Exemple :
+```dart
+Container(
+  decoration: BoxDecoration(border: Border.all()),
+  child: Column(
+    children: [
+      TextField(decoration: InputDecoration(labelText: 'Nom')),
+      TextField(decoration: InputDecoration(labelText: 'Email')),
+    ],
+  ),
+)
