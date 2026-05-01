@@ -1,3 +1,35 @@
+# Exercices Dart
+
+## EXERCICE I
+
+### 1. Nombre le plus fréquent
+/bin/exercice1.dart
+
+### 2. Inversion casse + inversion chiffres
+/bin/exercice2.dart
+
+### 3. Plus grande différence entre nombres consécutifs
+/bin/exercice3.dart
+
+## EXERCICE II
+
+### 1. Suite de Fibonacci
+/fibonacci/bin/fibonacci.dart
+
+### 2. Nombre de voyelles
+/voyelles/bin/voyelles.dart
+
+### 3. Combinaisons de deux nombres égaux à une somme cible
+/combinaisons/bin/combinaisons.dart
+
+
+
+
+---------------------------------------------------
+
+
+
+
 # Devoir Flutter - Arguments des exercices
 
 ## Exercice 1.1 : Centrer un champ de texte
